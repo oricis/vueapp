@@ -1,0 +1,60 @@
+body {
+    --main_color: #42b983
+}
+
+.block {
+    display: block;
+}
+
+.bodered {
+    border: 1px solid grey;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-both {
+    justify-content: space-between;
+}
+
+.cred {
+    color: red;
+}
+
+.none {
+    display: none;
+}
+
+.pad-2 {
+    padding: 2%;
+}
+
+.rounded {
+    border-radius: 3px
+}
+
+.top-5 {
+    margin-top: 5%;
+}
+
+.top-10 {
+    margin-top: 10%
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-70 {
+    width: 70%;
+}

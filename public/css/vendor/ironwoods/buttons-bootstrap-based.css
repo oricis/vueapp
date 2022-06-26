@@ -1,0 +1,91 @@
+/***********************************************************************
+ * Bootstrap based styles - buttons
+ * v.1.0.2
+ *
+ * Moisés Alcocer, 2020
+ * https://github.com/oricis/bootstrap-based-styles
+ * https://www.ironwoods.es
+ */
+
+.button-group .btn {
+    appearance        : button;
+    border            : 1px solid grey;
+    border-radius     : 3px;
+    color             : white;
+    cursor            : pointer;
+    display           : inline-block;
+    fill              : white; /* nested svg icons color */
+    font-size         : inherit;
+    font-weight       : 600;
+    list-style        : none;
+    padding           : 1rem;
+    text-align        : center;
+    text-decoration   : none;
+    vertical-align    : middle;
+}
+.button-group .btn * {
+    background-color: transparent;
+    color       : white;
+    fill        : white; /* nested svg icons color */
+    font-weight : 600;
+}
+.button-group .btn:disabled,
+.disabled {
+    cursor: default;
+    filter: opacity(0.2);
+    pointer-events: none;
+}
+
+.button-group .btn.btn-primary {
+    background: #2196F3;
+    border-color: blue;
+}
+.button-group .btn.btn-primary:hover {
+    background: #0a67b3;
+}
+.button-group .btn.btn-danger {
+    background: #D44029;
+    border-color: red;
+}
+.button-group .btn.btn-danger:hover {
+    background: #B82D18;
+}
+.button-group .btn.btn-default {
+    background  : white;
+    border-color: grey;
+    color       : #161616;
+}
+.button-group .btn.btn-default:hover {
+    background: #E5E5E5;
+}
+
+.button-group .btn.btn-unrounded {
+    border-radius: 0;
+}
+.button-group .btn.btn-small {
+    padding: .5rem;
+}
+
+.button-group .square2 {
+    align-items: center;
+    display    : inline-flex;
+    justify-content : center;
+    min-height : 2rem;
+    min-width  : 2rem;
+}
+
+/**
+ * To use SVG icons on buttons
+ *
+ */
+
+svg {
+    background-color: transparent;
+}
+
+.btn-danger svg path,
+.btn-danger svg,
+.btn-primary svg path,
+.btn-primary svg {
+    fill: inherit;
+}

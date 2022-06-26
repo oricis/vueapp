@@ -1,0 +1,53 @@
+/***********************************************************************
+ * Bootstrap based styles - pagination buttons
+ * v.1.1.0
+ *
+ * Moisés Alcocer, 2020
+ * https://github.com/oricis/bootstrap-based-styles
+ * https://www.ironwoods.es
+ */
+
+.pagination {
+    border-radius : 3px;
+    display       : inline-flex;
+    margin        : 5% auto 0;
+}
+.pagination * {
+    display         : inherit;
+    font-size       : 1.05rem;
+    line-height     : 1.5;
+    text-decoration : none;
+}
+
+
+.page-item {
+    background  : white;
+    border      : 1px solid #dee2e6;
+    margin-left : -1px;
+}
+.page-item:first-child {
+    border-radius : 3px 0 0 3px;
+    margin-left   : 0;
+}
+.page-item:first-child .page-link {
+    padding: .5rem .9rem;
+}
+.page-item:last-child {
+    border-radius : 0 3px 3px 0;
+}
+.page-item:last-child .page-link {
+    padding: .5rem .9rem;
+}
+
+.page-item.active * {
+    background : #0995df;;
+    color      : white;
+    font-weight: 900;
+}
+.page-link {
+    padding: .5rem .75rem;
+}
+.active .page-link,
+.disabled .page-link {
+    cursor: auto;
+}
